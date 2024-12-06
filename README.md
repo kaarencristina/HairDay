@@ -28,7 +28,5 @@ HairDay is an appointment scheduling system for haircuts, designed to simplify t
 
 ### Steps to Run
 
-1. Clone this repository:
+To run the project, first, clone the repository using `git clone https://github.com/kaarencristina/HairDay.git` and navigate to the project folder with `cd HairDay`. Then, install the dependencies by running `npm install`. Afterward, start the JSON Server with `npm run server` and the development server with `npm start`. Finally, open your browser and go to `http://localhost:3333` to see the project in action.
 
-   ```bash
-   git clone https://github.com/kaarencristina/HairDay.git
