@@ -1,6 +1,6 @@
 import { apiConfig } from "./api-config.js";
 
-export async ({ id }) {
+export async function scheduleCancel({ id }) {
 
   try {
     await fetch(`${apiConfig.baseURL}/schedules/${id}`,{
