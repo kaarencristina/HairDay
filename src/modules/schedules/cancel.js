@@ -8,7 +8,7 @@ import {schedulesDay} from "./load.js"
 periods.forEach((period)=>{
     period.addEventListener("click",async(event)=>{ 
         
-        if(event.target.classList.constains("cancel-icon")){
+        if(event.target.classList.contains("cancel-icon")){
             //obter a li pai do elemento clicado
             const item=event.target.closest("li")
             const {id}=item.dataset
